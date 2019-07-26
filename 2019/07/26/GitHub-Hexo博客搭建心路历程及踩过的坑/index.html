@@ -3,23 +3,34 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>Hello World | Hexo</title>
+  <title>GitHub+Hexo博客搭建心路历程及踩过的坑 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <meta name="keywords" content="MinHow,TanQuan's Bolg">
   
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="一、环境准备 注：笔者用的是windows系统  1. 注册github账号，创建仓库2. 安装nodejs3. 安装git4. 配置ssh公钥环境准备过程见【笔记-网页剪藏】- 超详细Hexo+Github Page搭建技术博客教程【持续更新】 二、安装Hexo、博客构建及推送至github只需简单的几个命令即可完成博客本地搭建及推送至github，首先在自己电脑中找个地方新建一个文件夹，作为你">
 <meta name="keywords" content="成长 后端  技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/07/26/hello-world/index.html">
+<meta property="og:title" content="GitHub+Hexo博客搭建心路历程及踩过的坑">
+<meta property="og:url" content="http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="一、环境准备 注：笔者用的是windows系统  1. 注册github账号，创建仓库2. 安装nodejs3. 安装git4. 配置ssh公钥环境准备过程见【笔记-网页剪藏】- 超详细Hexo+Github Page搭建技术博客教程【持续更新】 二、安装Hexo、博客构建及推送至github只需简单的几个命令即可完成博客本地搭建及推送至github，首先在自己电脑中找个地方新建一个文件夹，作为你">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-26T07:04:06.675Z">
+<meta property="og:image" content="en-resource://database/938:1">
+<meta property="og:image" content="en-resource://database/936:1">
+<meta property="og:image" content="en-resource://database/942:1">
+<meta property="og:image" content="en-resource://database/940:1">
+<meta property="og:image" content="en-resource://database/944:1">
+<meta property="og:image" content="en-resource://database/946:1">
+<meta property="og:image" content="en-resource://database/948:1">
+<meta property="og:image" content="en-resource://database/952:1">
+<meta property="og:image" content="en-resource://database/956:1">
+<meta property="og:image" content="en-resource://database/958:1">
+<meta property="og:updated_time" content="2019-07-26T13:14:45.673Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="GitHub+Hexo博客搭建心路历程及踩过的坑">
+<meta name="twitter:description" content="一、环境准备 注：笔者用的是windows系统  1. 注册github账号，创建仓库2. 安装nodejs3. 安装git4. 配置ssh公钥环境准备过程见【笔记-网页剪藏】- 超详细Hexo+Github Page搭建技术博客教程【持续更新】 二、安装Hexo、博客构建及推送至github只需简单的几个命令即可完成博客本地搭建及推送至github，首先在自己电脑中找个地方新建一个文件夹，作为你">
+<meta name="twitter:image" content="en-resource://database/938:1">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -110,14 +121,14 @@
     </div>
 </header>
       <div class="outer">
-        <section id="main" class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main" class="body-wrap"><article id="post-GitHub-Hexo博客搭建心路历程及踩过的坑" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="post-title" itemprop="name">
-      Hello World
+      GitHub+Hexo博客搭建心路历程及踩过的坑
     </h1>
     <div class="post-title-bar">
       <ul>
@@ -139,24 +150,53 @@
     <div class="article-entry post-content" itemprop="articleBody">
       
             
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+            <h4 id="一、环境准备"><a href="#一、环境准备" class="headerlink" title="一、环境准备"></a>一、环境准备</h4><blockquote>
+<p>注：笔者用的是windows系统</p>
+</blockquote>
+<h6 id="1-注册github账号，创建仓库"><a href="#1-注册github账号，创建仓库" class="headerlink" title="1. 注册github账号，创建仓库"></a>1. 注册github账号，创建仓库</h6><h6 id="2-安装nodejs"><a href="#2-安装nodejs" class="headerlink" title="2. 安装nodejs"></a>2. 安装nodejs</h6><h6 id="3-安装git"><a href="#3-安装git" class="headerlink" title="3. 安装git"></a>3. 安装git</h6><h6 id="4-配置ssh公钥"><a href="#4-配置ssh公钥" class="headerlink" title="4. 配置ssh公钥"></a>4. 配置ssh公钥</h6><p>环境准备过程见【笔记-网页剪藏】- 超详细Hexo+Github Page搭建技术博客教程【持续更新】</p>
+<h4 id="二、安装Hexo、博客构建及推送至github"><a href="#二、安装Hexo、博客构建及推送至github" class="headerlink" title="二、安装Hexo、博客构建及推送至github"></a>二、安装Hexo、博客构建及推送至github</h4><p>只需简单的几个命令即可完成博客本地搭建及推送至github，首先在自己电脑中找个地方新建一个文件夹，作为你的本地博客目录，比如我在我的E盘下新建一个myBolg文件夹<br><img src="en-resource://database/938:1" alt="cae33ae14bf6901e6888166629c203bc.png"></p>
+<ol>
+<li><p>安装Hexo<br> 在上面所建的文件夹下鼠标右键打开Git Bash，输入以下命令开始安装<br> <code>npm install -g hexo-cli</code></p>
+<p> <img src="en-resource://database/936:1" alt="f3ba5dcba3664a5c132b93318af6d0ae.png"></p>
+</li>
+</ol>
+<ol start="2">
+<li><p>初始化</p>
+<p> <code>hexo init [myBlog]</code><br> 注：myBlog这个目录我们早就建好了，若没有，系统会帮我们创建<br> <img src="en-resource://database/942:1" alt="fe67bfca22a69bd2c2922956e07ab8d1.png"></p>
+<p> 完成之后会生成以下文件和目录<br> <img src="en-resource://database/940:1" alt="b613e235e4db6b0fa68543c165bc4a91.png"></p>
+</li>
+</ol>
+<ol start="3">
+<li>安装npm<br> <code>npm install</code><br> 不是很懂这步做了什么，有啥用<br> <img src="en-resource://database/944:1" alt="f99403683294d483f9b5c4a11b8befd3.png"></li>
+</ol>
+<ol start="3">
+<li><p>本地预览<br> <code>hexo s</code><br> <img src="en-resource://database/946:1" alt="889f1396047040501abd720b098367c9.png"></p>
+<p>在浏览器中输入localhost:4000，可以看到我们的博客已经生成了。<br><img src="en-resource://database/948:1" alt="3f33797735682a35af32c4653cb3eece.png"></p>
+</li>
+</ol>
+<ol start="4">
+<li><p>生成html静态文件，推送（部署）至github<br> （1）生成静态文件</p>
+<pre><code>`hexo g`</code></pre><p>  <img src="en-resource://database/952:1" alt="d2b7ec4386439808eed8220f69da6b39.png"></p>
+<p>  生成之后，会发现本地博客目录中多了一个文件夹public和db.json数据文件，这个public就是我们要推送至github上的文件夹。<br> <img src="en-resource://database/956:1" alt="c30174bf3ef7260a39594236599c3e4a.png"></p>
+</li>
+</ol>
+<pre><code>（2）找到并修改全局配置文件_config.yml，打开该文件，拉到最后。添加下图所示deploy（部署）代码
+![66ccbe478d14452dc78d1afae3390119.png](en-resource://database/934:1)
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+注：冒号后面需要留一个空格，否则不生效，这是我第一个踩过的坑，就因为没有留意这里要空格，浪费了时间重复做前面的步骤。</code></pre><p>   （3）在部署之前需要安装hexo-deployer-git插件，不然报以下错，这是第二个踩过的坑</p>
+<pre><code>`npm install hexo-deployer-git --save`
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+   ERROR Deployer not found: git</code></pre><p>   （4）部署</p>
+<pre><code>`hexo d`
+![7c1e295387c50a217ee556d62be4314e.png](en-resource://database/950:1)
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+从红色框框中可以看到，部署成功，现在在浏览器中输入https://你的用户名.github.io 就会看到你的博客啦！</code></pre><p>部署在github的文件如下，其实就只有前面public文件夹下的东西，所以要是本地myBlog的博客目录丢失了，想通过git clone命令克隆到本地是不行的，因为public之外的东西没有了，所以只能重新在本地搭建环境并生成部署了，这是踩过的第三个坑，因为我就这么做过，之前电脑重装系统了，没备份，那些东西自然没有了。</p>
+<p><img src="en-resource://database/958:1" alt="80cf6374890c131fd7de6b9f2d43a7e9.png"></p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2019年07月26日 15:04</p>
-        <p>原始链接： <a class="post-url" href="/2019/07/26/hello-world/" title="Hello World">http://yoursite.com/2019/07/26/hello-world/</a></p>
+        <p>最后更新： 2019年07月26日 21:14</p>
+        <p>原始链接： <a class="post-url" href="/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/" title="GitHub+Hexo博客搭建心路历程及踩过的坑">http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/</a></p>
         <footer>
             <a href="http://yoursite.com">
                 <img src="/images/logo.png" alt="TanQuan">
@@ -213,7 +253,7 @@
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2019/07/26/hello-world/&title=《Hello World》 — Hexo&pic=http://yoursite.comimages/logo.png" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/&title=《GitHub+Hexo博客搭建心路历程及踩过的坑》 — Hexo&pic=http://yoursite.comimages/logo.png" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -223,22 +263,22 @@
             </a>
           </li>
           <li>
-            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2019/07/26/hello-world/&title=《Hello World》 — Hexo&source=一个后端菜鸟的技术成长记录" data-title="QQ">
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/&title=《GitHub+Hexo博客搭建心路历程及踩过的坑》 — Hexo&source=一个后端菜鸟的技术成长记录" data-title="QQ">
               <i class="fa fa-qq"></i>
             </a>
           </li>
           <li>
-            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2019/07/26/hello-world/" data-title="Facebook">
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/" data-title="Facebook">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Hello World》 — Hexo&url=http://yoursite.com/2019/07/26/hello-world/&via=http://yoursite.com" data-title="Twitter">
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《GitHub+Hexo博客搭建心路历程及踩过的坑》 — Hexo&url=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/&via=http://yoursite.com" data-title="Twitter">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2019/07/26/hello-world/" data-title="Google+">
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/" data-title="Google+">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -248,7 +288,7 @@
 <div class="post-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;" id="wxShare-close">×</a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2019/07/26/hello-world/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/" alt="微信分享二维码">
 </div>
 
 <div class="mask"></div>
@@ -266,30 +306,25 @@
 
     <aside class="post-toc-pos post-toc-top" id="post-toc">
         <nav class="post-toc-wrap">
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#一、环境准备"><span class="post-toc-text">一、环境准备</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#1-注册github账号，创建仓库"><span class="post-toc-text">1. 注册github账号，创建仓库</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#2-安装nodejs"><span class="post-toc-text">2. 安装nodejs</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#3-安装git"><span class="post-toc-text">3. 安装git</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#4-配置ssh公钥"><span class="post-toc-text">4. 配置ssh公钥</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#二、安装Hexo、博客构建及推送至github"><span class="post-toc-text">二、安装Hexo、博客构建及推送至github</span></a></li></ol>
         </nav>
     </aside>
     
 
 <nav id="article-nav">
   
-    <a href="/2019/07/26/GitHub-Hexo博客搭建心路历程及踩过的坑/" id="article-nav-newer" class="article-nav-link-wrap">
-
-      <span class="article-nav-title">
-        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
-        
-          GitHub+Hexo博客搭建心路历程及踩过的坑
-        
-      </span>
-    </a>
   
+    <a href="/2019/07/26/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">Hello World</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
   
 </nav>
 
 
 
     
-        <div id="SOHUCS" sid="hello-world" ></div>
+        <div id="SOHUCS" sid="GitHub-Hexo博客搭建心路历程及踩过的坑" ></div>
 <script type="text/javascript">
     (function(){
         var appid = 'true';
