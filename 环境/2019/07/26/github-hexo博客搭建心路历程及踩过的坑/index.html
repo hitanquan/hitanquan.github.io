@@ -26,7 +26,9 @@
 <meta property="og:image" content="https://hitanquan.github.io/images/12.png">
 <meta property="og:image" content="https://hitanquan.github.io/images/13.png">
 <meta property="og:image" content="https://hitanquan.github.io/images/3.png">
-<meta property="og:updated_time" content="2019-08-01T14:22:22.288Z">
+<meta property="og:image" content="https://hitanquan.github.io/images/11.png">
+<meta property="og:image" content="https://hitanquan.github.io/images/14.png">
+<meta property="og:updated_time" content="2019-08-01T14:29:09.692Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitHub+Hexo博客搭建心路历程及踩过的坑">
 <meta name="twitter:description" content="一、环境准备 注：笔者用的是windows系统  1. 注册github账号，创建仓库2. 安装nodejs3. 安装git4. 配置ssh公钥  环境准备过程见【笔记-网页剪藏】- 超详细Hexo+Github Page搭建技术博客教程【持续更新】 二、安装Hexo、博客构建及推送至github  只需简单的几个命令即可完成博客本地搭建及推送至github，首先在自己电脑中找个地方新建一个文件夹">
@@ -199,18 +201,15 @@ ga('send', 'pageview');
 <p>  （3）在部署之前需要安装hexo-deployer-git插件，不然报以下错，这是第二个踩过的坑</p>
 <p>  <code>npm install hexo-deployer-git --save</code></p>
 <pre><code>ERROR Deployer not found: git</code></pre><p>  （4）部署</p>
-<pre><code>`hexo d`
+<p>  <code>hexo d</code></p>
+<p>  <img src="/images/11.png" alt></p>
+<p>  从红色框框中可以看到，部署成功，现在在浏览器中输入https://你的用户名.github.io 就会看到你的博客啦！</p>
+<p>  部署在github的文件如下，其实就只有前面public文件夹下的东西，所以要是本地myBlog的博客目录丢失了，想通过git clone命令克隆到本地是不行的，因为public之外的东西没有了，所以只能重新在本地搭建环境并生成部署了，这是踩过的第三个坑，因为我就这么做过，之前电脑重装系统了，没备份，那些东西自然没有了。</p>
+<p>  <img src="/images/14.png" alt></p>
 
-![](/images/11.png)
-
-从红色框框中可以看到，部署成功，现在在浏览器中输入https://你的用户名.github.io 就会看到你的博客啦！
-
-部署在github的文件如下，其实就只有前面public文件夹下的东西，所以要是本地myBlog的博客目录丢失了，想通过git clone命令克隆到本地是不行的，因为public之外的东西没有了，所以只能重新在本地搭建环境并生成部署了，这是踩过的第三个坑，因为我就这么做过，之前电脑重装系统了，没备份，那些东西自然没有了。
-
-![](/images/14.png)</code></pre>
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2019年08月01日 22:22</p>
+        <p>最后更新： 2019年08月01日 22:29</p>
         <p>原始链接： <a class="post-url" href="/环境/2019/07/26/github-hexo博客搭建心路历程及踩过的坑/" title="GitHub+Hexo博客搭建心路历程及踩过的坑">https://hitanquan.github.io/环境/2019/07/26/github-hexo博客搭建心路历程及踩过的坑/</a></p>
         <footer>
             <a href="https://hitanquan.github.io">
